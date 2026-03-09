@@ -1,0 +1,6 @@
+interface:
+  display_name: "GitHub Trending Radar"
+  short_description: "Summarize GitHub Trending into radar briefs"
+  default_prompt: "Use $github-trending-radar to monitor GitHub Trending, select 3 to 5 notable repositories, and produce a concise technical radar report."
+policy:
+  allow_implicit_invocation: true
